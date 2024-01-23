@@ -10,13 +10,13 @@ public class Electores {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 
-    private Long electorId;
+    private Long id;
 
     private String nombre;
 
     private String correo;
 
-    @Column(name="rut", unique = true, nullable = false)
+    //@Column(name="rut", unique = true, nullable = false)
     private String rut;
 
     private String region;
