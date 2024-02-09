@@ -22,6 +22,7 @@ public class VotoEmitidoServices {
     public List<VotoEmitido> getVotoEmitido() {
         return votoEmitidoRepository.findAll();
     }
+    
 
     @GetMapping("/confirma")
     public Object getRutElector(Electores elector) {
